@@ -29,6 +29,17 @@ $(document).ready(function(){
                 $(this).removeClass("future");
                 $(this).removeClass("present");
                 $(this).addClass("past");
+                //is = time now than add css class present
+            } else if (time === now){
+                $(this).removeClass("past");
+                $(this).removeclass("future");
+                $(this).addClass("present");
+
+                //if not any above than future
+            } else {
+                $(this).removeClass("present");
+                $(this).removeClass("past");
+                $(this).addClass("future");
             }
         })
     }
