@@ -2,7 +2,6 @@
 var currentDay = moment().format("dddd, MMMM Do YYYY");
 // selected currentDay p id to display the current date
 $("#currentDay").html(currentDay);
-var now = moment().format("H A")
 
 //fucntionality for entire document
 $(document).ready(function(){
@@ -15,5 +14,24 @@ $(document).ready(function(){
         //save user input in local storage and time
         localStorage.setItem(time, input);
     })
+    //function to add color according to css class
+    function addColor(){
+        
+        //current hours
+        var now = moment().hour();
+
+        //looping time blcosk
+        $(".time-block").each(function (){
+            var time = parseInt($(this).attr("id").split("hour")[1]);
+
+            //checking if time of the block is less than current time then add the css class past
+            if (time < now) {
+                $(this).removeClass("future");
+                $(this).removeClass("present");
+                $(this).addClass("past");
+            }
+        })
+    }
+    addColor()
 });
  
