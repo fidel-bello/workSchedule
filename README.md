@@ -17,3 +17,13 @@
 * called the function back
 
 # general information III
+please visit deployed website @ https://fidel-bello.github.io/workSchedule/
+
+# screenshots
+![Work Day Scheduler - Google Chrome 1_23_2021 9_51_52 PM](https://user-images.githubusercontent.com/73322116/105619949-92564580-5dc5-11eb-97f0-3590542189cf.png)
+
+![Work Day Scheduler - Google Chrome 1_23_2021 9_52_22 PM](https://user-images.githubusercontent.com/73322116/105619956-a1d58e80-5dc5-11eb-8baf-da8d0d441bd8.png)
+
+
+![Work Day Scheduler - Google Chrome 1_23_2021 9_54_07 PM](https://user-images.githubusercontent.com/73322116/105619964-b4e85e80-5dc5-11eb-987a-f31378c9e2d2.png)
+

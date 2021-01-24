@@ -31,17 +31,17 @@ $(document).ready(function(){
         //current hours
         var now = moment().hour();
 
-        //looping time blcosk
+        //looping time block
         $(".time-block").each(function (){
-            var time = parseInt($(this).attr("id").split("-")[1]);
+            var block = parseInt($(this).attr("id").split("-")[1]);
 
             //checking if time of the block is less than current time then add the css class past
-            if (time < now) {
+            if (block < now) {
                 $(this).removeClass("future");
                 $(this).removeClass("present");
                 $(this).addClass("past");
                 //is = time now than add css class present
-            } else if (time === now){
+            } else if (block === now){
                 $(this).removeClass("past");
                 $(this).removeclass("future");
                 $(this).addClass("present");
