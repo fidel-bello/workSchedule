@@ -6,17 +6,17 @@ $("#currentDay").html(currentDay);
 //fucntionality for entire document
 $(document).ready(function(){
  //gets local storage from the val of the timeblock 8 am
- $("#hour8 .description").val(localStorage.getItem("hour8"));
- $("#hour9 .description").val(localStorage.getItem("hour9"));
- $("#hour10 .description").val(localStorage.getItem("hour10"));
- $("#hour11 .description").val(localStorage.getItem("hour11"));
- $("#hour12 .description").val(localStorage.getItem("hour12"));
- $("#hour13 .description").val(localStorage.getItem("hour13"));
- $("#hour14 .description").val(localStorage.getItem("hour14"));
- $("#hour15 .description").val(localStorage.getItem("hour15"));
- $("#hour16 .description").val(localStorage.getItem("hour16"));
- $("#hour17 .description").val(localStorage.getItem("hour17"));
- $("#hour18 .description").val(localStorage.getItem("hour18"));
+ $("#hour-8 .description").val(localStorage.getItem("hour-8"));
+ $("#hour-9 .description").val(localStorage.getItem("hour-9"));
+ $("#hour-10 .description").val(localStorage.getItem("hour-10"));
+ $("#hour-11 .description").val(localStorage.getItem("hour-11"));
+ $("#hour-12 .description").val(localStorage.getItem("hour-12"));
+ $("#hour-13 .description").val(localStorage.getItem("hour-13"));
+ $("#hour-14 .description").val(localStorage.getItem("hour-14"));
+ $("#hour-15 .description").val(localStorage.getItem("hour-15"));
+ $("#hour-16 .description").val(localStorage.getItem("hour-16"));
+ $("#hour-17 .description").val(localStorage.getItem("hour-17"));
+ $("#hour-18 .description").val(localStorage.getItem("hour-18"));
     //onlick on save btn
     $(".saveBtn").on("click", function(){
         //gets values from description
