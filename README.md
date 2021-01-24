@@ -1,4 +1,10 @@
 # workSchedule
+# table of contents
+1. general information
+2. general information II
+3. general information III
+4. general information IV
+5. screenshots
 # general information 
 * this week's project was to make create simple same day calendar for each of a working day. The app features dynamilly updated html and css powered by jquery.
 * I used moment. js to set date/time in the file. 
@@ -16,7 +22,7 @@
 * made function that tracks the time and depending ont he time the time blocks will be color coded dynamically via css. 
 * called the function back
 
-# general information III
+# general information IV
 please visit deployed website @ https://fidel-bello.github.io/workSchedule/
 
 # screenshots
