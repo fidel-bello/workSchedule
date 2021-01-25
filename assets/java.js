@@ -43,7 +43,7 @@ $(document).ready(function(){
                 //is = time now than add css class present
             } else if (block === now){
                 $(this).removeClass("past");
-                $(this).removeclass("future");
+                $(this).removeClass("future");
                 $(this).addClass("present");
 
                 //if not any above than future
